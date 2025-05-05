@@ -8,4 +8,5 @@
 
  add_action('admin_notices', function() {
     echo '<div class="notice notice-success"><p>Hello World!</p></div>';
+    echo '<div class="notice notice-success"><p>Hello World New changes!</p></div>';
 });
