@@ -1,0 +1,13 @@
+{
+    "name": "Ahmadd-111/hello-world-plugin",
+    "description": "A simple WordPress plugin that says Hello World.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "HelloWorld\\": "hello-world/"
+      }
+    }
+  }
+  
